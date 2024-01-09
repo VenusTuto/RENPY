@@ -21,8 +21,8 @@ imagebutton idle "images/SCREENS/History_idle.png" hover "images/SCREENS/History
 imagebutton idle "images/SCREENS/Skip_idle.png" hover "images/SCREENS/Skip_hover.png" action Skip() alternate Skip(fast=True, confirm=True)
 imagebutton idle "images/SCREENS/Auto_idle.png" hover "images/SCREENS/Auto_hover.png" action Preference("auto-forward", "toggle")
 imagebutton idle "images/SCREENS/QuickSave_idle.png" hover "images/SCREENS/QuickSave_hover.png" action QuickSave()
-imagebutton idle "images/SCREENS/QuickLoad.png" hover "images/SCREENS/QuickLoad.png" action QuickLoad()
-imagebutton idle "images/SCREENS/Preferences.png" hover "images/SCREENS/Preferences.png" action ShowMenu('preferences')
+imagebutton idle "images/SCREENS/QuickLoad_idle.png" hover "images/SCREENS/QuickLoad_hover.png" action QuickLoad()
+imagebutton idle "images/SCREENS/Preferences_idle.png" hover "images/SCREENS/Preferences_hover.png" action ShowMenu('preferences')
 
 
 
