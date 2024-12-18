@@ -1,17 +1,17 @@
 ### TEXTBUTTON MENU PRINCIPAL RENPY ###
 ## Contenedor para los botones  
-vbox:  
-xalign 0.5  
-yalign 0.5  
-spacing 15  
+    vbox:  
+        xalign 0.5  
+        yalign 0.5  
+        spacing 15  
 
 ## Espaciado entre botones  
-textbutton "Comenzar" action Start()  
-textbutton "Cargar" action ShowMenu("load")  
-textbutton "Opciones" action ShowMenu("preferences")  
-textbutton "Acerca de" action ShowMenu("about")  
-textbutton "Ayuda" action ShowMenu("help")  
-textbutton "Salir" action Quit()  
+        textbutton "Comenzar" action Start()  
+        textbutton "Cargar" action ShowMenu("load")  
+        textbutton "Opciones" action ShowMenu("preferences")  
+        textbutton "Acerca de" action ShowMenu("about")  
+        textbutton "Ayuda" action ShowMenu("help")  
+        textbutton "Salir" action Quit()    
 
 
 ### IMAGEBUTTON MENU PRINCIPAL RENPY###
