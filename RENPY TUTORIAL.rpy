@@ -1,9 +1,17 @@
 ### TEXTBUTTON MENU PRINCIPAL RENPY ###
-textbutton _("Comenzar") xpos 500 ypos 500 action Start()
-textbutton _("Cargar") xpos 500 ypos 550 action ShowMenu("load")
-textbutton _("Opciones") xpos 500 ypos 600 action ShowMenu("preferences")
-textbutton _("Información") xpos 500 ypos 650 action ShowMenu("about")
-textbutton _("Salir") xpos 500 ypos 700 action Quit(confirm=not main_menu)
+## Contenedor para los botones  
+  vbox:  
+    xalign 0.5  
+    yalign 0.5  
+    spacing 15  
+
+## Espaciado entre botones  
+  textbutton "Comenzar" action Start()  
+  textbutton "Cargar" action ShowMenu("load")  
+  textbutton "Opciones" action ShowMenu("preferences")  
+  textbutton "Acerca de" action ShowMenu("about")  
+  textbutton "Ayuda" action ShowMenu("help")  
+  textbutton "Salir" action Quit()  
 
 
 ### IMAGEBUTTON MENU PRINCIPAL RENPY###
