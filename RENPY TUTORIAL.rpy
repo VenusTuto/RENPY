@@ -1,12 +1,12 @@
 ### TEXTBUTTON MENU PRINCIPAL RENPY ###
 ## Contenedor para los botones  
     vbox:  
-        xalign 0.5  
+        xalign 0.1  
         yalign 0.5  
         spacing 15  
 
 ## Espaciado entre botones  
-        textbutton "Comenzar" action Start()  
+        textbutton "Jugar" action Start()  
         textbutton "Cargar" action ShowMenu("load")  
         textbutton "Opciones" action ShowMenu("preferences")  
         textbutton "Acerca de" action ShowMenu("about")  
